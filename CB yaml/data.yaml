@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Estrus', 'grazing', 'lying', 'standing']
+
+roboflow:
+  workspace: cowbehaviordetection
+  project: cow_behavior_detection-veqgv
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cowbehaviordetection/cow_behavior_detection-veqgv/dataset/5
